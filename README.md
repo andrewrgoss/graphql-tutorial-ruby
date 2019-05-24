@@ -1,5 +1,7 @@
 # README
 
+For more info: https://andrewrgoss.com/2019/build-graphql-server-with-ruby
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
