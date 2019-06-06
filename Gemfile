@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.2'
 gem 'graphql', '1.8.13'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'bcrypt', '~> 3.1.7'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
