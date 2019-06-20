@@ -7,13 +7,13 @@ class Mutations::CreateUserTest < ActiveSupport::TestCase
 
   test 'create new user' do
     user = perform(
-      name: 'Test User',
-      auth_provider: {
-        email: {
-          email: 'email@example.com',
-          password: '[omitted]'
+        name: 'Test User',
+        auth_provider: {
+            email: {
+                email: 'email@example.com',
+                password: '[omitted]'
+            }
         }
-      }
     )
 
     assert user.persisted?
